@@ -1,0 +1,38 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+    
+    {%if data == 'YES'%}
+    <h1>SORRY! WE HAVE DETECTED LUNG_CANCER</h1> 
+    
+    <p>Know More About Lung Cancer</p>
+    <a href='/Explore'>
+        <button class="btn btn-outline-primary btn-md mb-0" style="width:10%; background-color: rgb(242, 236, 236)"><b>Explore</b></button>
+      </a>
+      
+
+    {%else%}
+    <h1>CONGRATULATIONS! NO LUNG_CANCER DETECTED </h1>
+
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>
+        <button>Back to home page</button> </a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+
